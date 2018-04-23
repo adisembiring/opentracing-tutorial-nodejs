@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "types": ["node", "mocha"],
+    "moduleResolution": "node",
+    "target": "es6",
+    "sourceMap": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true
+  },
+  "exclude": [
+    "node_modules",
+    "docs/**/"
+  ]
+}

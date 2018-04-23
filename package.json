@@ -1,0 +1,42 @@
+{
+  "name": "jaeger-demo",
+  "version": "1.0.0",
+  "description": "OpenTracing Tutorial for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint-fix": "tslint --fix -p tsconfig.json && prettier --write \"**/*.ts\""
+  },
+  "author": "Adi Sembiring <sembiring.adi@gmail.comm>",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.20",
+    "@types/continuation-local-storage": "^3.2.1",
+    "@types/express": "^4.11.1",
+    "@types/faker": "^4.1.2",
+    "@types/mocha": "^5.1.0",
+    "@types/request-promise": "^4.1.41",
+    "mocha": "^5.1.1",
+    "prettier": "^1.12.1",
+    "ts-node": "^6.0.0",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.10.0",
+    "typescript": "^2.8.1",
+    "typescript-formatter": "^7.2.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cls-bluebird": "^2.1.0",
+    "continuation-local-storage": "^3.2.1",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "jaeger-client": "^3.10.0",
+    "opentracing": "^0.14.3",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "printWidth": 150
+  }
+}
