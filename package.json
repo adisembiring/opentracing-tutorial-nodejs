@@ -21,7 +21,7 @@
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.10.0",
     "typescript": "^2.8.1",
-    "typescript-formatter": "^7.2.0"
+    "typescript-formatter": "^7.2.2"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
